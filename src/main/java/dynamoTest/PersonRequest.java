@@ -3,6 +3,10 @@ public class PersonRequest {
     private String firstName;
     private String lastName;
     
+    public PersonRequest() {
+    	super();
+    }
+    
 	public PersonRequest(String firstName, String lastName) {
 		super();
 		this.firstName = firstName;
